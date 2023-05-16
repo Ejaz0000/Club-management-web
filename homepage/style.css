@@ -1,0 +1,54 @@
+        /* Add CSS styles here */
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            box-sizing: border-box;
+        }
+
+        #header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: #333;
+            color: white;
+        }
+
+        #logo {
+            font-size: 30px;
+            font-weight: bold;
+        }
+
+        #nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #nav a {
+            display: inline-block;
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        #search {
+            margin-right: 20px;
+        }
+
+        #calendar {
+            margin-right: 20px;
+        }
+#content{
+    display: flex;
+   
+}
+ 
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+        }

@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>My Web Page</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            box-sizing: border-box;
+        }
+
+        .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 5px;
+            background-color: #090000;
+            color: white;
+        }
+
+        .logo {
+            width: 45px;
+            height: 40px;
+            margin-left: 15px;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: -60px;
+        }
+
+        .nav a {
+            display: inline-block;
+            margin: 0 10px;
+            color: white;
+            text-decoration: none;
+        }
+
+        .search {
+            margin-right: -350px;
+        }
+
+        .search input{
+            width: 160px;
+            height: 20px;
+            border-radius: 20px;
+        }
+
+        .calendar {
+            margin-right: 30px;
+        }
+
+        .calendar img{
+            width: 30px;
+            height: 30px;
+        }
+
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+
+        }
+
+        .img-box {
+            width: 33.33%;
+            height: 100vh;
+            padding: 10px;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        .img-box img {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100vh;
+            object-fit: cover;
+        }
+
+        .img-box h3 {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-size: 24px;
+            color: white;
+            text-shadow: 1px 1px 1px #333;
+            margin: 0;
+        }
+
+        .footer {
+            display: flex;
+            justify-content: space-between;
+            background-color: #ff7f00;
+            color: white;
+            padding: 5px;
+
+            text-align: center;
+        }
+
+        .footer img {
+            height: auto;
+            width: 5px;
+            min-width: 130px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- this is header code -->
+    <div class="header">
+        
+        <img src="logoCMS.jpeg" class="logo" alt="">
+        <div class="nav">
+            <a href="#">Home</a>
+            <a href="../login/uiuLogin.php">Login</a>
+            <a href="#">Contact</a>
+            <a href="#">Notice</a>
+        </div>
+        <div class="search">
+            <input type="text" placeholder=" Search...">
+        </div>
+        <div class="calendar">
+            <img src="calender.png" alt="calender">
+        </div>
+    </div>
+
+
+    <div class="content">
+        <div class="img-box">
+            <img src="1.jpg">
+            <h3>UIU info about</h3>
+        </div>
+        <div class="img-box">
+            <img src="2.jpg">
+            <h3>Features of club</h3>
+        </div>
+        <div class="img-box">
+            <img src="image2.jpg">
+            <h3>web info</h3>
+        </div>
+    </div>
+    <div class="footer">
+        <h2 style="text-decoration: underline;">UIU Web site</h2>
+        <h2>Quest for Excellence</h2>
+        <img src="5.jpg" alt="logo">
+    </div>
+</body>
+
+</html>
